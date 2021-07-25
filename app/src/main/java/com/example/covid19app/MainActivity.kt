@@ -9,6 +9,8 @@ import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProvider.NewInstanceFactory
+import com.example.covid19app.fragments.ContinentsFragment
+import com.example.covid19app.fragments.CountryDetailsFragment
 import com.example.covid19app.viewmodels.MainViewModel
 import java.util.*
 

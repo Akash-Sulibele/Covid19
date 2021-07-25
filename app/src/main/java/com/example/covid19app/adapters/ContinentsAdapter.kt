@@ -1,4 +1,4 @@
-package com.example.covid19app
+package com.example.covid19app.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.covid19app.R
 import com.example.covid19app.models.AllCountriesResponseModelItem
 import com.squareup.picasso.Picasso
 

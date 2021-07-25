@@ -1,4 +1,4 @@
-package com.example.covid19app
+package com.example.covid19app.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,6 +10,9 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.covid19app.MainActivity
+import com.example.covid19app.R
+import com.example.covid19app.adapters.ContinentsAdapter
 import com.example.covid19app.models.ContinentsResponseModel
 import com.example.covid19app.viewmodels.MainViewModel
 
