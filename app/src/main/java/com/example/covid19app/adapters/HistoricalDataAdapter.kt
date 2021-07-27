@@ -21,8 +21,8 @@ class HistoricalDataAdapter(
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         val vHolder = holder as HistoricalDataViewHolder
         vHolder.cases.text = dataSet.cases?.values?.toIntArray()?.get(position).toString()
-        vHolder.deaths.text = dataSet.cases?.values?.toIntArray()?.get(position).toString()
-        vHolder.recovered.text = dataSet.cases?.values?.toIntArray()?.get(position).toString()
+        vHolder.deaths.text = dataSet.deaths?.values?.toIntArray()?.get(position).toString()
+        vHolder.recovered.text = dataSet.recovered?.values?.toIntArray()?.get(position).toString()
         vHolder.date.text = dataSet.cases?.keys?.toTypedArray()?.get(position).toString()
     }
 
